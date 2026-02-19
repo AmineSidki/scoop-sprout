@@ -1,0 +1,21 @@
+{
+  "version": "1.4.6",
+  "description": "Sprout CLI scaffolding tool",
+  "homepage": "https://github.com/AmineSidki/sprout-releases",
+  "license": "MIT",
+  "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.4.6/sprout-windows-x86_64.zip",
+  "hash": "sha256:092579387f36967994c813610931262aee5fe07460e96d5c80fecaf6c8f1f41c",
+  "extract_dir": "Sprout-1.4.5",
+  "env_add_path": "bin",
+  "checkver": {
+    "url": "https://github.com/AmineSidki/sprout-releases/releases/latest",
+    "re": "v([\\d.]+).zip"
+  },
+  "autoupdate": {
+    "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v$version/sprout-windows-x86_64.zip",
+    "extract_dir": "sprout-windows-x86_64",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
