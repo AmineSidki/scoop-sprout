@@ -13,5 +13,5 @@ scoop bucket add AmineSidki https://github.com/AmineSidki/scoop-sprout.git
 3. Install tools via `scoop install`:
 
 ```
-scoop install sprout
+scoop install <toolName>
 ```

@@ -4,7 +4,7 @@
   "homepage": "https://github.com/AmineSidki/sprout-releases",
   "license": "MIT",
   "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.6/sprout-windows-x86_64.zip",
-  "hash": "sha256:3d0ba531ba925c34a9845178680bc3cb9d9324e83d1a21df2f73bbd418d4e9b0",
+  "hash": "sha256:c79647f3e9d2abafa6a7f7a38fcebc80fe654353568d8208292c89048af08744",
   "extract_dir": "Sprout-1.5",
   "env_add_path": "bin",
   "checkver": {
