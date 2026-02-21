@@ -1,19 +1,25 @@
 {
-  "version": "1.6.6",
+  "version": "1.7.1",
   "description": "Sprout CLI scaffolding tool",
   "homepage": "https://github.com/AmineSidki/sprout-releases",
   "license": "MIT",
-  "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.6.6/sprout-windows-x86_64.zip",
-  "hash": "sha256:86f180415e974f89711a57b2001b35501b34fed1691627219eeab4f1438b5e64",
-  "extract_dir": "Sprout-1.6.6",
+  "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.7.1/sprout-1.7.1.zip",
+  "hash": "sha256:a3d22dd6ce241ce67657a489c4f6e4333b4061d10847450b130b8b7db2a2c4a1",
+  "extract_dir": "sprout-1.7.1",
   "env_add_path": "bin",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
   "checkver": {
     "url": "https://github.com/AmineSidki/sprout-releases/releases/latest",
     "re": "v([\\d.]+).zip"
   },
   "autoupdate": {
-    "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v$version/sprout-windows-x86_64.zip",
-    "extract_dir": "sprout-windows-x86_64",
+    "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v$version/sprout-$version.zip",
+    "extract_dir": "sprout-$version",
     "hash": {
       "url": "$url.sha256"
     }
