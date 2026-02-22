@@ -4,7 +4,7 @@
   "homepage": "https://github.com/AmineSidki/sprout-releases",
   "license": "MIT",
   "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.7.2/sprout-1.7.2.zip",
-  "hash": "sha256:b032ee867bab2aff8a6f2c68f4bdda9f5d1daa9f7d5ac50846ba42d6b3682d10",
+  "hash": "sha256:10225fff0c7ecde05534f8d2d83e080283e80e0f5c58a058511d4a16486c5ff7",
   "extract_dir": "sprout-1.7.2",
   "env_add_path": "bin",
   "suggest": {
