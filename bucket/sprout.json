@@ -1,11 +1,11 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Sprout CLI scaffolding tool",
   "homepage": "https://github.com/AmineSidki/sprout-releases",
   "license": "MIT",
-  "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.7.1/sprout-1.7.1.zip",
-  "hash": "sha256:a3d22dd6ce241ce67657a489c4f6e4333b4061d10847450b130b8b7db2a2c4a1",
-  "extract_dir": "sprout-1.7.1",
+  "url": "https://github.com/AmineSidki/sprout-releases/releases/download/v1.7.2/sprout-1.7.2.zip",
+  "hash": "sha256:b032ee867bab2aff8a6f2c68f4bdda9f5d1daa9f7d5ac50846ba42d6b3682d10",
+  "extract_dir": "sprout-1.7.2",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
